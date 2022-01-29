@@ -6,19 +6,6 @@
 
 int main()
 {
-	////diff randomness every time program is executed
-	//srand(static_cast<unsigned>(time(0)));
-
-	////get health
-	//std::cout << "Enter Boov health value: ";
-	//int health;
-	//std::cin >> health;
-
-	////get shield
-	//std::cout << "Enter Boov shield value: ";
-	//int shield;
-	//std::cin >> shield;
-
 	//run many simulations
 	const int NUMBER_OF_SIMULATIONS = 100;
 
