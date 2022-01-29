@@ -31,3 +31,12 @@ void Boov::getsAttacked()
 	}
 	//20% do nothing
 }
+
+/*
+1% of the time, the boov is instantly defeated|set health to 0
+20% of the time, the attack misses and does 0 damage (dont need to do shit for this)
+50% of the time, the attack does 2-5 random shield damage
+	think of this as an actual physical shield that can be damaged with use
+	if the shield calue is reduced to a negative value, that means it has been destroyed, so subtract the extra damage from their health
+29% of the time randomly, the attack does 4-8 random health damage
+*/
